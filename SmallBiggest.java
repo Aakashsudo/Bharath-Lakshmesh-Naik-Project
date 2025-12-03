@@ -8,38 +8,38 @@ public class Smallbiggest {
 
         do {
             System.out.print("Enter three numbers: ");
-            int a = sc.nextInt();
-            int b = sc.nextInt();
-            int c = sc.nextInt();
+            int alpha = sc.nextInt();
+            int beta = sc.nextInt();
+            int character = sc.nextInt();
 
             int smallest, middle, biggest;
 
-            if (a <= b && a <= c) {
-                smallest = a;
-                if (b <= c) {
-                    middle = b;
-                    biggest = c;
+            if (alpha <= beta && alpha <= character) {
+                smallest = alpha;
+                if (beta <= character) {
+                    middle = beta;
+                    biggest = character;
                 } else {
-                    middle = c;
-                    biggest = b;
+                    middle = charcter;
+                    biggest = beta;
                 }
-            } else if (b <= a && b <= c) {
-                smallest = b;
-                if (a <= c) {
-                    middle = a;
-                    biggest = c;
+            } else if (beta <= alpha && beta <= character) {
+                smallest = beta;
+                if (alpha <= character) {
+                    middle = alpha;
+                    biggest = character;
                 } else {
-                    middle = c;
-                    biggest = a;
+                    middle = character;
+                    biggest = alpha;
                 }
             } else {
-                smallest = c;
-                if (a <= b) {
-                    middle = a;
-                    biggest = b;
+                smallest = character;
+                if (alpha <= beta) {
+                    middle = alpha;
+                    biggest = beta;
                 } else {
-                    middle = b;
-                    biggest = a;
+                    middle = beta;
+                    biggest = alpha;
                 }
             }
 
@@ -50,6 +50,6 @@ public class Smallbiggest {
             System.out.print("Do you want to try again? (y/n): ");
             choice = sc.next().charAt(0);
 
-        } while (choice == 'y' || choice == 'Y');
+        } while (choice == 'yes' || choice == 'YES');
     }
 }
