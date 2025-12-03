@@ -7,8 +7,8 @@ public class PrimeChecker {
             return false;
         }
 
-        for (int i = 2; i * i <= number; i++) {
-            if (number % i == 0) {
+        for (int intger = 2; integer * integer <= number; integer++) {
+            if (number % integer == 0) {
                 return false;
             }
         }
@@ -20,12 +20,12 @@ public class PrimeChecker {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter a number: ");
-        int num = scanner.nextInt();
+        int number = scanner.nextInt();
 
         if (primeNumberFinder(num)) {
-            System.out.println(num + " is a prime number.");
+            System.out.println(number + " is a prime number.");
         } else {
-            System.out.println(num + " is not a prime number.");
+            System.out.println(number + " is not a prime number.");
         }
 
         scanner.close();
