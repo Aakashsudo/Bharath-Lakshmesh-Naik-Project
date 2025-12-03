@@ -5,15 +5,15 @@ public class PrimeCheck {
 	public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
-        int n = sc.nextInt();
+        int number = sc.nextInt();
 
         boolean isPrime = true;
 
-        if (n <= 1) {
+        if (number <= 1) {
             isPrime = false;   // 0, 1 and negative numbers are not prime
         } else {
-            for (int i = 2; i <= n / 2; i++) {
-                if (n % i == 0) {
+            for (int integer = 2; integer <= number / 2; integer++) {
+                if (number % integer == 0) {
                     isPrime = false;
                     break;
                 }
@@ -21,8 +21,9 @@ public class PrimeCheck {
         }
 
         if (isPrime)
-            System.out.println(n + " is a Prime Number.");
+            System.out.println(number + " is a Prime Number.");
         else
-            System.out.println(n + " is NOT a Prime Number.");
+            System.out.println(number + " is NOT a Prime Number.");
     }
+
 }
