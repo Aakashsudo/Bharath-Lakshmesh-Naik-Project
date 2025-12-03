@@ -8,8 +8,8 @@ public class Factorial {
 		int number = sc.nextInt();
         long factorial =1;
         for(int integer=1;integer<=n;integer++) {
-        	factorial = factorial*i;
+        	factorial = factorial*integer;
         }
-        System.out.println("Factorial of "+n+"="+factorial);
+        System.out.println("Factorial of "+number+"="+factorial);
         }
 	}
