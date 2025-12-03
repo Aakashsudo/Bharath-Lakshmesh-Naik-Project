@@ -1,11 +1,11 @@
 package year;
 
 public class MultiplesOF3 {
-	static void printMultiples(int arr[]) {
+	static void printMultiples(int array[]) {
         int count = 0;
 
-        for(int i = 0; i < arr.length; i++) {
-            if(arr[i] % 3 == 0) {
+        for(int integer = 0; integer < arr.length; integer++) {
+            if(array[integer] % 3 == 0) {
                 count++;
             }
         }
@@ -14,7 +14,7 @@ public class MultiplesOF3 {
     }
 	public static void main(String[] args) {
 		
-	        int[] arr = {3, 8, 12, 14, 17};
-	        printMultiples(arr);
+	        int[] array = {3, 8, 12, 14, 17};
+	        printMultiples(array);
 	    }
 	}
