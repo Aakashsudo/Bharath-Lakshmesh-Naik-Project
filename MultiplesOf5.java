@@ -1,11 +1,11 @@
 package year;
 
 public class MultiplesOf5 {
-	static void printMultiples(int arr[]) {
+	static void printMultiples(int array[]) {
         int count = 0;
 
-        for(int i = 0; i < arr.length; i++) {
-            if(arr[i] % 5 == 0) {
+        for(int integer = 0; integer < arr.length; integer++) {
+            if(array[integer] % 5 == 0) {
                 count++;
             }
         }
@@ -13,8 +13,8 @@ public class MultiplesOf5 {
         System.out.println("Output = " + count);
     }
 	public static void main(String[] args) {
-		 int[] arr = {5, 11, 20, 22, 26, 31};
-	        printMultiples(arr);
+		 int[] array = {5, 11, 20, 22, 26, 31};
+	        printMultiples(array);
 
 	}
 
