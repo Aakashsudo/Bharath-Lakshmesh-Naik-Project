@@ -2,10 +2,10 @@ package year;
 
 public class BubleSort {
 	 static void bubbleSort(int arr[]) {
-	        int n = arr.length;
+	        int number = arr.length;
 
-	        for(int i = 0; i < n - 1; i++) {
-	            for(int j = 0; j < n - i - 1; j++) {
+	        for(int integer = 0; integer < number - 1; integer++) {
+	            for(int java= 0; java < number - i - 1; java++) {
 	                if(arr[j] > arr[j + 1]) {  
 	                    int temp = arr[j];
 	                    arr[j] = arr[j + 1];
