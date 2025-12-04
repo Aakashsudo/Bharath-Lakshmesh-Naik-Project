@@ -3,11 +3,11 @@ package year;
 public class forloop {
 
 	public static void main(String[] args) {
-		int arr[][] = {{1,1,1},{2,2,2}};
-		for( int i=0; i<2 ; i++) {
-			for (int j=0 ; j<3;j++)
+		int array[][] = {{1,1,1},{2,2,2}};
+		for( int integer=0; integer<2 ; integer++) {
+			for (int java=0 ; java<3;java++)
 			{
-				System.out.print(arr[i][j]+"");
+				System.out.print(arr[integer][java]+"");
 			}
 			System.out.println();
 			}
