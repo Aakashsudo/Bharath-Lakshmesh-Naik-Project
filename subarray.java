@@ -1,12 +1,12 @@
 package year;
 import java.util.Scanner;
 public class Subarray {
-public static int[] subArray(int[] arr, int start, int end) {
+public static int[] subArray(int[] array, int start, int end) {
         int size = end - start + 1;
         int[] result = new int[size];
 
-        for (int i = 0; i < size; i++) {
-            result[i] = arr[start + i];
+        for (int integer = 0; integer < size; integer++) {
+            result[integer] = arr[start + integer];
         }
 
         return result;
@@ -16,7 +16,7 @@ public static int[] subArray(int[] arr, int start, int end) {
 
         Scanner sc = new Scanner(System.in);
 
-        int[] arr = {12, 21, 11, 43, 87};
+        int[] array = {12, 21, 11, 43, 87};
 
         System.out.print("Enter start index: ");
         int start = sc.nextInt();
@@ -26,7 +26,7 @@ public static int[] subArray(int[] arr, int start, int end) {
         int end = sc.nextInt();
 
       
-        int[] sub = subArray(arr, start, end);
+        int[] sub = subArray(array, start, end);
 
         System.out.println("Subarray:");
         for (int num : sub) {
