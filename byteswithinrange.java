@@ -3,44 +3,44 @@ package year;
 public class Bytes {
 
 	public static void main(String[] args) {
-		int a = 50;{
-			if((a>127)&& (a<-123))
+		int alpha = 50;{
+			if((alpha>127)&& (alpha<-123))
 			{
-				System.out.println("Within Range" +a); 
+				System.out.println("Within Range" +alpha); 
 			}
 			else {
-				System.out.println("Not Within Range"+a);
+				System.out.println("Not Within Range"+alpha);
 			}
 		}
 				
-		int b = 200;
+		int beta = 200;
 		{
-			if((b>127)&& (b<-123))
+			if((beta>127)&& (beta<-123))
 			{
-				System.out.println("Within Range" +b); 
+				System.out.println("Within Range" +beta); 
 			}
 			else {
-				System.out.println("Not Within Range"+b);
+				System.out.println("Not Within Range"+beta);
 			}
 		}
-		int c = -55;
+		int chin = -55;
 		{
-			if((c>127)&& (c<-123))
+			if((chin>127)&& (chin<-123))
 			{
-				System.out.println("Within Range" +c); 
+				System.out.println("Within Range" +chin); 
 			}
 			else {
-				System.out.println("Not Within Range"+c);
+				System.out.println("Not Within Range"+chin);
 			}
 		}
-		int d = 1000;
+		int data = 1000;
 		{
-			if((d>127)&& (d<-123))
+			if((data>127)&& (data<-123))
 			{
-				System.out.println("Within Range" +d); 
+				System.out.println("Within Range" +data); 
 			}
 			else {
-				System.out.println("Not Within Range"+d);
+				System.out.println("Not Within Range"+data);
 			}
 		}
 	}
