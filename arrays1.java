@@ -6,14 +6,14 @@ public class arrays1 {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the number of elements:");
          int size= sc.nextInt();
-         int arr[] = new int[size];
+         int array[] = new int[size];
          System.out.println("Enter" +size + "elements");
-         for ( int i=0;i < size; i++)
-        	 arr[i] = sc.nextInt();
+         for ( int integer=0;integer < size; integer++)
+        	 arr[integer] = sc.nextInt();
          System.out.println("Entered array elements :");
-         for(int i=0;i<size;i++)
+         for(int integer=0;integer<size;integer++)
          {
-        	System.out.println(arr[i]) ;
+        	System.out.println(arr[integer]) ;
          }
 	}
 
