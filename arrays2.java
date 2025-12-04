@@ -7,14 +7,14 @@ public class arrays2 {
 		        Scanner sc = new Scanner(System.in);
 		        System.out.print("Enter the number of elements: ");
 		        int size = sc.nextInt();
-		        int arr[] = new int[size];
+		        int array[] = new int[size];
 		        System.out.println("Enter " + size + " elements:");
-		        for(int i = 0; i < size; i++) {
-		            arr[i] = sc.nextInt();
+		        for(int integer = 0; integer < size; integer++) {
+		            arr[integer] = sc.nextInt();
 		        }
 		        System.out.println("Array elements are:");
-		        for(int i = 0; i< size; i++) {
-		            System.out.print(arr[i] + " ");
+		        for(int integer = 0; integer< size; integer++) {
+		            System.out.print(arr[integer] + " ");
 		        }
 		        }
 	}
