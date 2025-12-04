@@ -8,38 +8,38 @@ public class smalbiggi {
 
         do {
             System.out.print("Enter three numbers: ");
-            int a = sc.nextInt();
-            int b = sc.nextInt();
-            int c = sc.nextInt();
+            int alpha = sc.nextInt();
+            int beta = sc.nextInt();
+            int chin = sc.nextInt();
 
             int smallest, middle, biggest;
 
-            if (a <= b && a <= c) {
-                smallest = a;
-                if (b <= c) {
-                    middle = b;
-                    biggest = c;
+            if (alpha <= beta && a <= chin) {
+                smallest = alpha;
+                if (beta <= chin) {
+                    middle = beta;
+                    biggest = chin;
                 } else {
-                    middle = c;
-                    biggest = b;
+                    middle = chin;
+                    biggest = beta;
                 }
-            } else if (b <= a && b <= c) {
-                smallest = b;
-                if (a <= c) {
-                    middle = a;
-                    biggest = c;
+            } else if (beta <= alpha && beta <= chin) {
+                smallest = beta;
+                if (alpha <= chin) {
+                    middle = alpha;
+                    biggest = chin;
                 } else {
-                    middle = c;
-                    biggest = a;
+                    middle = chin;
+                    biggest = alpha;
                 }
             } else {
-                smallest = c;
-                if (a <= b) {
-                    middle = a;
-                    biggest = b;
+                smallest = chin;
+                if (alpha <= beta) {
+                    middle = alpha;
+                    biggest = beta;
                 } else {
-                    middle = b;
-                    biggest = a;
+                    middle = beta;
+                    biggest = alpha;
                 }
             }
 
@@ -50,6 +50,6 @@ public class smalbiggi {
             System.out.print("Do you want to try again? (y/n): ");
             choice = sc.next().charAt(0);
 
-        } while (choice == 'y' || choice == 'Y');
+        } while (choice == 'yes' || choice == 'YES');
     }
 }
